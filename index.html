@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การเงินกับคนยุคใหม่</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>การเงินกับคนยุคใหม่</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#about">เกี่ยวกับเรา</a></li>
+                    <li><a href="#articles">บทความ</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>เสนอข้อมูลเกี่ยวกับการเงินในยุคใหม่</h2>
+            <p>เนื้อหาที่เป็นประโยชน์และเกี่ยวกับเทคโนโลยีในการบริหารการเงิน</p>
+            <a href="#articles" class="btn">อ่านบทความ</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>เกี่ยวกับเรา</h2>
+            <p>เนื้อหาเกี่ยวกับเว็บไซต์และวัตถุประสงค์ในการให้บริการ</p>
+        </div>
+    </section>
+
+    <section id="articles" class="articles">
+        <div class="container">
+            <h2>บทความ</h2>
+            <div class="article">
+                <h3>การลงทุนในสินทรัพย์ดิจิทัล</h3>
+                <p>เนื้อหาของบทความเกี่ยวกับการลงทุนในสินทรัพย์ดิจิทัล และทำไมควรลงทุนในสิ่งนี้</p>
+            </div>
+            <div class="article">
+                <h3>การใช้งานบัตรเงินสดอัจฉริยะ</h3>
+                <p>วิธีการใช้งานบัตรเงินสดอัจฉริยะในการจัดการและวางแผนการเงินส่วนบุคคล</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>ติดต่อเรา</h2>
+            <p>กรุณากรอกแบบฟอร์มติดต่อเพื่อสอบถามข้อมูลเพิ่มเติมหรือติดต่อเราโดยตรง</p>
+            <form action="submit.php" method="POST">
+                <label for="name">ชื่อ:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">ข้อความ:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">ส่งข้อความ</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 การเงินกับคนยุคใหม่</p>
+        </div>
+    </footer>
+</body>
+</html>
